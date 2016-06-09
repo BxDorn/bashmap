@@ -10,7 +10,7 @@ echo "What is the IP of the destination?"
 read dst
 
 # Number of threads
-echo "This script will initiate 100 streams per thread, how many threads 
+echo "This script will initiate 100 streams per thread, how many streams 
 should be initiated?"
 read sockets
 
