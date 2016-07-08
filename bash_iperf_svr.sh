@@ -3,7 +3,7 @@
 
 
 echo "This is the server component to the iperf client script, the client will send 
-100 streams per thread, how many streams will you be terminating?"
+100 streams per thread, how many threads will you be terminating?"
 read streams
 
 port=5201
