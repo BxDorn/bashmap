@@ -15,7 +15,7 @@ should be initiated?"
 read sockets
 
 #throughput
-echo "how many bits / sec?"
+echo "how many bits / sec? (enter [0] for unlimited"
 read speed
 
 # How long

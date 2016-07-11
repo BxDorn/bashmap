@@ -26,9 +26,7 @@ dst_port=5201
 counter=1
 while [ $counter -le $sockets ]; do
 	echo Building Thread $counter
-	iperf3 -c $dst -p $dst_port -P 100 -i 10 -t $t_time -b $speed &
+	iperf3 -c $dst -p $dst_port -P 100 -i 0 -t $t_time -b $speed &
 	let counter=counter+1
 	let dst_port=dst_port+1
 done
-
-#test
